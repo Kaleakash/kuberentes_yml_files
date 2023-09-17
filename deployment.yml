@@ -4,6 +4,7 @@ metadata:
   name: my-server
   labels:
     app: my-server
+  namespace: dev
 spec:
   replicas: 3
   selector:

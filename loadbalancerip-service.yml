@@ -1,7 +1,8 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: simple-app-service
+  name: simple-app-service-loadbalancer-ip
+  namespace: dev
 spec:
   type: LoadBalancer
   selector:
